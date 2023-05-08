@@ -3,9 +3,7 @@
 import MainLayout from "@/components/Layout/MainLayout";
 import "./globals.css";
 import { useEffect } from "react";
-import {
-  neonCursor,
-} from "threejs-toys";
+import { neonCursor } from "threejs-toys";
 
 import { Roboto } from "next/font/google";
 
@@ -25,7 +23,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-    useEffect(() => {
+  useEffect(() => {
     neonCursor({
       el: document.getElementById("test"),
       shaderPoints: 16,
@@ -39,16 +37,16 @@ export default function RootLayout({
       sleepTimeCoefX: 0.0025,
       sleepTimeCoefY: 0.0025,
     });
-        }, []);
+  }, []);
   return (
     <html lang="en" className="dark">
       <body className={roboto.className}>
         <div id="test" style={{ position: "relative", height: "100%" }}>
           <div style={{ position: "absolute", top: 0, left: 0 }}>
-        <div  className="dark:bg dark:text-white flex flex-col h-full ">
-          <MainLayout> {children}</MainLayout>
+            <div className="dark:bg dark:text-white flex flex-col h-full ">
+              <MainLayout> {children}</MainLayout>
             </div>
-        </div>
+          </div>
         </div>
       </body>
     </html>
