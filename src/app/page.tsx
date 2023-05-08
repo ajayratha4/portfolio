@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { use } from "react";
+import Landing from "@/components/Landing";
+import TagWrapper from "@/components/common/TagWrapper";
 
 export const testAPI = () => {
   return new Promise<void>((resolve, reject) => {
@@ -8,12 +8,11 @@ export const testAPI = () => {
 };
 
 export default function Home() {
-  const test = use(testAPI());
-  console.log(test);
-
   return (
-    <div className="h-full w-full">
-      <Link href={"/test"}>hello</Link>
+    <div className="p-2">
+      <TagWrapper tagName="body">
+        <Landing />
+      </TagWrapper>
     </div>
   );
 }

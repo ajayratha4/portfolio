@@ -5,11 +5,11 @@ type Props = {
 };
 const MainLayout = ({ children }: Props) => {
   return (
-    <div className="flex h-full w-full sm:flex-col md:flex-row">
-      <div className="md:w-1/5 sm:w-full sm:max-h-2/4 md:h-full border ">
+    <div className="flex h-full w-full flex-col md:flex-row">
+      <div className="md:w-1/5 w-full md:h-full border ">
         <SideBar />
       </div>
-      <div className="md:w-4/5 sm:w-full h-full">{children}</div>
+      <div className="md:w-4/5 w-full h-full overflow-auto">{children}</div>
     </div>
   );
 };
