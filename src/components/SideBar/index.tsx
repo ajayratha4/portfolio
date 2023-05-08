@@ -3,14 +3,14 @@ import Link from "next/link";
 const paths = [
   { label: "Home", path: "/" },
   { label: "Experience", path: "/experience" },
-  { label: "Skils", path: "/skils" },
+  { label: "Skill", path: "/skill" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
 ];
 
 const SideBar = () => {
   return (
-    <div className=" h-full w-full  dark:bg-gray-900 dark:border-gray-700 flex justify-center items-center">
+    <div className=" h-full w-full flex justify-center items-center">
       <nav className="hs-accordion-group p-6 w-full flex flex-col flex-wrap ">
         <ul className="space-y-5">
           {paths.map((pathItem) => (

@@ -1,5 +1,6 @@
 import Landing from "@/components/Landing";
 import TagWrapper from "@/components/common/TagWrapper";
+import NeonCursor from "@/components/common/NeonCursor";
 
 export const testAPI = () => {
   return new Promise<void>((resolve, reject) => {
@@ -9,7 +10,7 @@ export const testAPI = () => {
 
 export default function Home() {
   return (
-    <div className="p-2">
+    <div className="w-full h-full ">
       <TagWrapper tagName="body">
         <Landing />
       </TagWrapper>
