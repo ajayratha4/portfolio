@@ -4,10 +4,7 @@ import SideBar from "../SideBar";
 import { useEffect } from "react";
 import { neonCursor } from "threejs-toys";
 
-type Props = {
-  children: React.ReactNode;
-};
-const MainLayout = ({ children }: Props) => {
+const MainLayout = ({ children }) => {
   useEffect(() => {
     neonCursor({
       el: document.getElementById("test"),
