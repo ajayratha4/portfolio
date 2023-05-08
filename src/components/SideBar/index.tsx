@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const paths = [
   { label: "Home", path: "/" },
-  { label: "Test", path: "/test" },
+  { label: "Experience", path: "/experience" },
+  { label: "Skils", path: "/skils" },
+  { label: "About", path: "/about" },
+  { label: "Contact", path: "/test" },
 ];
 
 const SideBar = () => {
