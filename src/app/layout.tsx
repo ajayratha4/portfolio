@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <div id="test" style={{ position: "relative", height: "100%" }}>
           <div style={{ position: "absolute", top: 0, left: 0 }}>
-            <div className="dark:bg dark:text-white flex flex-col h-full ">
+            <div className="flex flex-col h-full ">
               <MainLayout> {children}</MainLayout>
             </div>
           </div>
