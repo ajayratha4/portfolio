@@ -8,16 +8,16 @@ const NeonCursor = ({ children }) => {
     if (el.current) {
       neonCursor({
         el: el.current,
-        shaderPoints: 16,
-        curvePoints: 80,
+        shaderPoints: 10,
+        curvePoints: 10,
         curveLerp: 0.5,
-        radius1: 5,
-        radius2: 30,
-        velocityTreshold: 10,
-        sleepRadiusX: 100,
-        sleepRadiusY: 100,
-        sleepTimeCoefX: 0.0025,
-        sleepTimeCoefY: 0.0025,
+        radius1: 1,
+        radius2: 10,
+        velocityTreshold: 1,
+        sleepRadiusX: 0,
+        sleepRadiusY: 0,
+        sleepTimeCoefX: 0,
+        sleepTimeCoefY: 0,
       });
     }
   }, []);
@@ -33,7 +33,7 @@ const NeonCursor = ({ children }) => {
           width: "100%",
         }}
       >
-        <div className=" p-2  w-full h-full">{children}</div>
+        <div className="w-full h-full">{children}</div>
       </div>
     </div>
   );

@@ -5,11 +5,11 @@ const Landing = () => {
   return (
     <div>
       <TagWrapper tagName="h1">
-        {/* <div className="flex flex-col font-bold text-8xl">
+        <div className="flex flex-col font-bold text-8xl">
           <span>Hi,</span>
           <span>I am Ajay Ratha,</span>
           <span>Full Stack Developer</span>
-        </div> */}
+        </div>
       </TagWrapper>
       <div className="flex gap-4">
         <div>
