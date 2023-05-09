@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "../common/Button";
 
 const paths = [
   { label: "Home", path: "/" },
@@ -15,12 +16,9 @@ const SideBar = () => {
         <ul className="space-y-5">
           {paths.map((pathItem) => (
             <li key={pathItem.path}>
-              <Link
-                className="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 dark:bg-gray-800 dark:text-white"
-                href={pathItem.path}
-              >
+              <Button href={pathItem.path} className="w-full">
                 {pathItem.label}
-              </Link>
+              </Button>
             </li>
           ))}
         </ul>
