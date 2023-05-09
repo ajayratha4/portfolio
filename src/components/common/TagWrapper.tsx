@@ -2,11 +2,12 @@ type Props = {
   children: React.ReactNode;
   tagName: string;
   style?: string;
+  flexCol?: boolean;
 };
 
-const TagWrapper = ({ children, tagName, style }: Props) => {
+const TagWrapper = ({ children, tagName, style, flexCol = true }: Props) => {
   return (
-    <div className="  flex flex-col  ">
+    <div className={`flex ${flexCol && "flex-col"}  `}>
       <span className=" dark:text-gray-600 font-cursive">{`<${tagName}>`}</span>
       <div className={`"ml-4" ${style}`}>{children}</div>
       <span className=" dark:text-gray-600 font-cursive">{`</${tagName}>`}</span>

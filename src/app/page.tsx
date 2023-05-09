@@ -1,6 +1,5 @@
 import Landing from "@/components/Landing";
 import TagWrapper from "@/components/common/TagWrapper";
-import NeonCursor from "@/components/common/NeonCursor";
 
 export const testAPI = () => {
   return new Promise<void>((resolve, reject) => {

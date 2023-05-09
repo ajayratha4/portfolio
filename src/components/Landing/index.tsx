@@ -1,6 +1,15 @@
 import Link from "next/link";
 import TagWrapper from "../common/TagWrapper";
 import Button from "../common/Button";
+import {
+  ExpressIcon,
+  JavascriptIcon,
+  MongodbIcon,
+  MysqlIcon,
+  Nodeicon,
+  ReactIcon,
+  TypescriptIcon,
+} from "../icons";
 
 const Landing = () => {
   return (
@@ -13,17 +22,39 @@ const Landing = () => {
         </div>
       </TagWrapper>
       <div className="flex gap-4">
-        <div>
-          <TagWrapper tagName="p">
-            <span className="hover:animate-spin">
-              Front End Developer & Back End Developer
-            </span>
+        <div className="w-1/2">
+          <TagWrapper tagName="p" style={"mx-3"}>
+            <span>Front End Developer & Back End Developer</span>
           </TagWrapper>
           <TagWrapper tagName="button" style={"my-3"}>
             <Button href="/contact">Contact me !</Button>
           </TagWrapper>
         </div>
-        <div></div>
+        <div className="w-1/2">
+          <TagWrapper flexCol={false} tagName="h5" style={"mx-3"}>
+            <span className="font-bold">Core Competencies</span>
+          </TagWrapper>
+          <TagWrapper tagName="icons" style={"m-3 "}>
+            <div className="flex gap-2 flex-wrap">
+              <JavascriptIcon />
+              <ReactIcon />
+              <Nodeicon />
+              <ExpressIcon />
+              <TypescriptIcon />
+              <MongodbIcon />
+              <MysqlIcon /> <JavascriptIcon />
+              <ReactIcon />
+              <Nodeicon />
+              <ExpressIcon />
+              <TypescriptIcon />
+              <MongodbIcon />
+              <MysqlIcon /> <JavascriptIcon />
+              <ReactIcon />
+              <Nodeicon />
+              <ExpressIcon />
+            </div>
+          </TagWrapper>
+        </div>
       </div>
     </div>
   );
