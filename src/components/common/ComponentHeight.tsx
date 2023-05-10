@@ -5,6 +5,7 @@ interface Props extends PropsWithChildren {
   showBackgroundColor?: boolean;
   style?: React.CSSProperties;
   className?: string;
+  backgroundColor?: string;
 }
 
 const ComponentHeight = ({
@@ -12,6 +13,7 @@ const ComponentHeight = ({
   showBackgroundColor = true,
   style = {},
   className = "",
+  backgroundColor,
 }: Props) => {
   function getRandomRgb() {
     var num = Math.round(0xffffff * Math.random());
@@ -21,8 +23,8 @@ const ComponentHeight = ({
     return "rgb(" + r + ", " + g + ", " + b + ",0.5 " + ")";
   }
 
-  const backgroundColor = showBackgroundColor
-    ? { backgroundColor: getRandomRgb() }
+  const cbackgroundColor = showBackgroundColor
+    ? { background: backgroundColor ? backgroundColor : getRandomRgb() }
     : {};
 
   return (
@@ -31,7 +33,7 @@ const ComponentHeight = ({
       style={{
         padding: "8px",
         overflow: "auto",
-        ...backgroundColor,
+        ...cbackgroundColor,
         ...style,
       }}
     >
