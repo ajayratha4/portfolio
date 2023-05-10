@@ -11,11 +11,11 @@ const TagWrapper = ({ children, tagName, style, flexCol = true }: Props) => {
   return (
     <div className={`flex ${flexCol && "flex-col"}  `}>
       <span
-        className={`dark:text-gray-100 ${caveat.className}`}
+        className={`dark:text-gray-500 ${caveat.className}`}
       >{`<${tagName}>`}</span>
       <div className={`${flexCol ? "ml-7" : "mx-2"}  ${style}`}>{children}</div>
       <span
-        className={`dark:text-gray-100 ${caveat.className}`}
+        className={`dark:text-gray-500 ${caveat.className}`}
       >{`</${tagName}>`}</span>
     </div>
   );
