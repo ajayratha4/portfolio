@@ -21,7 +21,7 @@ export default function Home() {
       <ComponentHeight showBackgroundColor={false}>
         <Experience />
       </ComponentHeight>
-      <ComponentHeight backgroundColor="radial-gradient(circle, rgba(2,0,36,0.5) 0%, rgba(9,9,121,0.5) 0%, rgba(0,212,255,0.5) 100%)">
+      <ComponentHeight>
         <Contact />
       </ComponentHeight>
     </div>

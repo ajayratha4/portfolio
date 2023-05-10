@@ -13,18 +13,10 @@ const ComponentHeight = ({
   showBackgroundColor = true,
   style = {},
   className = "",
-  backgroundColor,
+  backgroundColor = "radial-gradient(circle, rgba(63,94,251,0.5) 0%, rgba(10,25,41,0.5) 100%)",
 }: Props) => {
-  function getRandomRgb() {
-    var num = Math.round(0xffffff * Math.random());
-    var r = num >> 16;
-    var g = (num >> 8) & 255;
-    var b = num & 255;
-    return "rgb(" + r + ", " + g + ", " + b + ",0.5 " + ")";
-  }
-
   const cbackgroundColor = showBackgroundColor
-    ? { background: backgroundColor ? backgroundColor : getRandomRgb() }
+    ? { background: backgroundColor }
     : {};
 
   return (
