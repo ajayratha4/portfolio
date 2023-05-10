@@ -16,29 +16,17 @@ import HeaderTag from "../common/HeaderTag";
 const Landing = () => {
   return (
     <TagWrapper tagName="body">
-      <div className="w-full h-full flex flex-col gap-6 ">
+      <div className="w-full h-full flex flex-col gap-3 ">
         <HeaderTag>
           <span>Hi,</span>
           <span>I am Ajay Ratha,</span>
           <span>Full Stack Developer</span>
         </HeaderTag>
-
-        <div className="flex justify-between flex-wrap">
-          <div className="w-full md:w-[48%] ">
-            <TagWrapper tagName="p" style={"mx-3"}>
-              <span className="text-2xl">
-                Front End Developer & Back End Developer
-              </span>
-            </TagWrapper>
-            <TagWrapper tagName="button" style={"my-3"}>
-              <Button href="/contact" className="w-3/4">
-                Contact me!
-              </Button>
-            </TagWrapper>
-          </div>
-          <div className="w-full md:w-[48%] ">
-            <TagWrapper flexCol={false} tagName="h5" style={"mx-3"}>
-              <span className="font-bold">Core Competencies</span>
+        {/* Front End Developer & Back End Developer */}
+        <div className="flex w-full justify-between flex-wrap">
+          <div className="w-full  ">
+            <TagWrapper flexCol={true} tagName="h5" style={"mx-3"}>
+              <span className="text-lg">Core Competencies</span>
             </TagWrapper>
             <TagWrapper tagName="icons" style={"m-3 "}>
               <div className="flex gap-2 flex-wrap">
@@ -53,6 +41,12 @@ const Landing = () => {
               </div>
             </TagWrapper>
           </div>
+
+          <TagWrapper tagName="button" style={"my-3"}>
+            <Button href="/contact" className="w-full">
+              Contact me!
+            </Button>
+          </TagWrapper>
         </div>
         {/* <div className="flex justify-between mt-2">
         <div style={{ writingMode: "vertical-rl" }}>Scroll Down</div>
