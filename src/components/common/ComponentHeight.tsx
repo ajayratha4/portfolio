@@ -3,9 +3,16 @@ import { PropsWithChildren } from "react";
 
 interface Props extends PropsWithChildren {
   showBackgroundColor?: boolean;
+  style?: React.CSSProperties;
+  className?: string;
 }
 
-const ComponentHeight = ({ children, showBackgroundColor = true }: Props) => {
+const ComponentHeight = ({
+  children,
+  showBackgroundColor = true,
+  style = {},
+  className = "",
+}: Props) => {
   function getRandomRgb() {
     var num = Math.round(0xffffff * Math.random());
     var r = num >> 16;
@@ -20,10 +27,11 @@ const ComponentHeight = ({ children, showBackgroundColor = true }: Props) => {
 
   return (
     <div
+      className={className}
       style={{
-        height: "100%",
         padding: "8px",
         ...backgroundColor,
+        ...style,
       }}
     >
       {children}

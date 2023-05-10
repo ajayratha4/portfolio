@@ -5,7 +5,7 @@ import TagWrapper from "@/components/common/TagWrapper";
 export default function ExperiencePage() {
   return (
     <div className="w-full h-full ">
-      <ComponentHeight>
+      <ComponentHeight style={{ height: "100%" }}>
         <TagWrapper tagName="body">
           <Experience />
         </TagWrapper>

@@ -12,7 +12,7 @@ import {
 
 const Landing = () => {
   return (
-    <div>
+    <div className="w-full h-full ">
       <TagWrapper tagName="h1">
         <div className="flex flex-col font-bold text-8xl">
           <span>Hi,</span>
@@ -54,6 +54,10 @@ const Landing = () => {
             </div>
           </TagWrapper>
         </div>
+      </div>
+      <div className="flex justify-between">
+        <div style={{ writingMode: "vertical-rl" }}>Scroll Down</div>
+        <div style={{ writingMode: "vertical-rl" }}>Scroll Down</div>
       </div>
     </div>
   );
