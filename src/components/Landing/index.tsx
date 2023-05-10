@@ -9,12 +9,15 @@ import {
   ReactIcon,
   TypescriptIcon,
 } from "../icons";
+import { rampartOne } from "@/fonts/fonts";
 
 const Landing = () => {
   return (
     <div className="w-full h-full ">
       <TagWrapper tagName="h1">
-        <div className="flex flex-col font-bold text-8xl">
+        <div
+          className={`flex flex-col font-bold text-8xl ${rampartOne.className}`}
+        >
           <span>Hi,</span>
           <span>I am Ajay Ratha,</span>
           <span>Full Stack Developer</span>

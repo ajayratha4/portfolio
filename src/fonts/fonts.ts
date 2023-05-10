@@ -1,4 +1,10 @@
-import { Rancho, Caveat, Satisfy, Roboto, Lobster } from "next/font/google";
+import {
+  Rampart_One,
+  Caveat,
+  Satisfy,
+  Roboto,
+  Lobster,
+} from "next/font/google";
 
 export const roboto = Roboto({
   weight: "400",
@@ -7,7 +13,7 @@ export const roboto = Roboto({
   variable: "--font-roboto",
 });
 
-export const rancho = Rancho({ subsets: ["latin"], weight: "400" });
+export const rampartOne = Rampart_One({ subsets: ["latin"], weight: "400" });
 
 export const caveat = Caveat({
   subsets: ["latin"],
