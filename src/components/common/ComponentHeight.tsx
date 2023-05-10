@@ -30,6 +30,7 @@ const ComponentHeight = ({
       className={className}
       style={{
         padding: "8px",
+        overflow: "auto",
         ...backgroundColor,
         ...style,
       }}

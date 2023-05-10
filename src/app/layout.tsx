@@ -1,13 +1,7 @@
+import React from "react";
 import MainLayout from "@/components/Layout/MainLayout";
 import "./globals.css";
-
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
-});
+import { rancho } from "@/fonts/fonts";
 
 export const metadata = {
   title: "Ajay Ratha Portfolio",
@@ -21,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={roboto.className}>
+      <body className={rancho.className}>
         <div className="dark:bg dark:text-white flex flex-col h-full ">
           <MainLayout> {children}</MainLayout>
         </div>

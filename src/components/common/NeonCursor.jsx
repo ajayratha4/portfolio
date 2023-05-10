@@ -4,6 +4,7 @@ import { neonCursor } from "threejs-toys";
 
 const NeonCursor = ({ children }) => {
   const el = useRef(null);
+
   useEffect(() => {
     if (el.current) {
       neonCursor({

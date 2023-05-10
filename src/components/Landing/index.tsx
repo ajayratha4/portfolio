@@ -23,7 +23,9 @@ const Landing = () => {
       <div className="flex justify-between flex-wrap">
         <div className="w-full md:w-[48%] ">
           <TagWrapper tagName="p" style={"mx-3"}>
-            <span>Front End Developer & Back End Developer</span>
+            <span className="text-2xl">
+              Front End Developer & Back End Developer
+            </span>
           </TagWrapper>
           <TagWrapper tagName="button" style={"my-3"}>
             <Button href="/contact">Contact me !</Button>
