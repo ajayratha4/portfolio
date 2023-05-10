@@ -1,7 +1,11 @@
 "use client";
-import { PropsWithChildren, useEffect, useRef, useState } from "react";
+import { PropsWithChildren } from "react";
 
-const ComponentHeight = ({ children }: PropsWithChildren) => {
+interface Props extends PropsWithChildren {
+  showBackgroundColor?: boolean;
+}
+
+const ComponentHeight = ({ children, showBackgroundColor = true }: Props) => {
   function getRandomRgb() {
     var num = Math.round(0xffffff * Math.random());
     var r = num >> 16;
@@ -10,12 +14,16 @@ const ComponentHeight = ({ children }: PropsWithChildren) => {
     return "rgb(" + r + ", " + g + ", " + b + ",0.5 " + ")";
   }
 
+  const backgroundColor = showBackgroundColor
+    ? { backgroundColor: getRandomRgb() }
+    : {};
+
   return (
     <div
       style={{
         height: "100%",
-        backgroundColor: getRandomRgb(),
         padding: "8px",
+        ...backgroundColor,
       }}
     >
       {children}

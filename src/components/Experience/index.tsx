@@ -1,8 +1,8 @@
 import React from "react";
-import Test from "../common/Test";
+import Landing from "../Landing";
 
 const Experience = () => {
-  return <Test />;
+  return <Landing />;
 };
 
 export default Experience;

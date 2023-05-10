@@ -9,17 +9,21 @@ import TagWrapper from "@/components/common/TagWrapper";
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-2">
-      {/* <TagWrapper tagName="body"> */}
-      <Landing />
-      <About />
+      <ComponentHeight>
+        <Landing />
+      </ComponentHeight>
+      <ComponentHeight showBackgroundColor={false}>
+        <About />
+      </ComponentHeight>
       <ComponentHeight>
         <Skills />
       </ComponentHeight>
-      <Experience />
+      <ComponentHeight showBackgroundColor={false}>
+        <Experience />
+      </ComponentHeight>
       <ComponentHeight>
         <Contact />
       </ComponentHeight>
-      {/* </TagWrapper> */}
     </div>
   );
 }

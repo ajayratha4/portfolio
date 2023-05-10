@@ -9,11 +9,10 @@ import {
   ReactIcon,
   TypescriptIcon,
 } from "../icons";
-import ComponentHeight from "../common/ComponentHeight";
 
 const Landing = () => {
   return (
-    <ComponentHeight>
+    <div>
       <TagWrapper tagName="h1">
         <div className="flex flex-col font-bold text-8xl">
           <span>Hi,</span>
@@ -56,7 +55,7 @@ const Landing = () => {
           </TagWrapper>
         </div>
       </div>
-    </ComponentHeight>
+    </div>
   );
 };
 
