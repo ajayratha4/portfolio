@@ -6,6 +6,7 @@ import Typescript from "./Typescript";
 import Javascript from "./Javascript";
 import Mysql from "./Mysql";
 import AWS from "./AWS";
+import Java from "./Java";
 
 export {
   React as ReactIcon,
@@ -16,4 +17,5 @@ export {
   Javascript as JavascriptIcon,
   Mysql as MysqlIcon,
   AWS as AWSIcon,
+  Java as JavaIcon,
 };

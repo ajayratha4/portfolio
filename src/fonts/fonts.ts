@@ -4,6 +4,7 @@ import {
   Satisfy,
   Roboto,
   Lobster,
+  Short_Stack,
 } from "next/font/google";
 
 export const roboto = Roboto({
@@ -29,5 +30,11 @@ export const satisfy = Satisfy({
 export const lobster = Lobster({
   subsets: ["latin"],
   variable: "--font-lobster",
+  weight: "400",
+});
+
+export const shortStack = Short_Stack({
+  subsets: ["latin"],
+  variable: "--font-shortStack",
   weight: "400",
 });
