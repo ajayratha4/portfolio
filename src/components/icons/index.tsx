@@ -5,6 +5,7 @@ import Mongodb from "./Mongodb";
 import Typescript from "./Typescript";
 import Javascript from "./Javascript";
 import Mysql from "./Mysql";
+import AWS from "./AWS";
 
 export {
   React as ReactIcon,
@@ -14,4 +15,5 @@ export {
   Typescript as TypescriptIcon,
   Javascript as JavascriptIcon,
   Mysql as MysqlIcon,
+  AWS as AWSIcon,
 };

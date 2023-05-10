@@ -1,6 +1,7 @@
 import TagWrapper from "../common/TagWrapper";
 import Button from "../common/Button";
 import {
+  AWSIcon,
   ExpressIcon,
   JavascriptIcon,
   MongodbIcon,
@@ -13,10 +14,10 @@ import { rampartOne } from "@/fonts/fonts";
 
 const Landing = () => {
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full flex flex-col gap-6 ">
       <TagWrapper tagName="h1">
         <div
-          className={`flex flex-col font-bold text-8xl ${rampartOne.className}`}
+          className={`flex flex-col font-bold text-6xl md:text-7xl lg:text-8xl ${rampartOne.className}`}
         >
           <span>Hi,</span>
           <span>I am Ajay Ratha,</span>
@@ -31,7 +32,9 @@ const Landing = () => {
             </span>
           </TagWrapper>
           <TagWrapper tagName="button" style={"my-3"}>
-            <Button href="/contact">Contact me !</Button>
+            <Button href="/contact" className="w-3/4">
+              Contact me !
+            </Button>
           </TagWrapper>
         </div>
         <div className="w-full md:w-[48%] ">
@@ -46,24 +49,16 @@ const Landing = () => {
               <ExpressIcon />
               <TypescriptIcon />
               <MongodbIcon />
-              <MysqlIcon /> <JavascriptIcon />
-              <ReactIcon />
-              <Nodeicon />
-              <ExpressIcon />
-              <TypescriptIcon />
-              <MongodbIcon />
-              <MysqlIcon /> <JavascriptIcon />
-              <ReactIcon />
-              <Nodeicon />
-              <ExpressIcon />
+              <MysqlIcon />
+              <AWSIcon />
             </div>
           </TagWrapper>
         </div>
       </div>
-      <div className="flex justify-between">
+      {/* <div className="flex justify-between mt-2">
         <div style={{ writingMode: "vertical-rl" }}>Scroll Down</div>
         <div style={{ writingMode: "vertical-rl" }}>Scroll Down</div>
-      </div>
+      </div> */}
     </div>
   );
 };
