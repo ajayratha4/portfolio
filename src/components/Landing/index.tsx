@@ -11,20 +11,18 @@ import {
   TypescriptIcon,
 } from "../icons";
 import { rampartOne } from "@/fonts/fonts";
+import HeaderTag from "../common/HeaderTag";
 
 const Landing = () => {
   return (
     <TagWrapper tagName="body">
       <div className="w-full h-full flex flex-col gap-6 ">
-        <TagWrapper tagName="h1">
-          <div
-            className={`flex flex-col gap-3 font-bold text-6xl md:text-7xl lg:text-8xl ${rampartOne.className}`}
-          >
-            <span>Hi,</span>
-            <span>I am Ajay Ratha,</span>
-            <span>Full Stack Developer</span>
-          </div>
-        </TagWrapper>
+        <HeaderTag>
+          <span>Hi,</span>
+          <span>I am Ajay Ratha,</span>
+          <span>Full Stack Developer</span>
+        </HeaderTag>
+
         <div className="flex justify-between flex-wrap">
           <div className="w-full md:w-[48%] ">
             <TagWrapper tagName="p" style={"mx-3"}>

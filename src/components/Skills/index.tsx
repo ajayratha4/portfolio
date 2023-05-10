@@ -1,8 +1,14 @@
 import React from "react";
-import Landing from "../Landing";
+import HeaderTag from "../common/HeaderTag";
 
 const Skills = () => {
-  return <Landing />;
+  return (
+    <div className="w-full flex flex-col gap-3">
+      <HeaderTag>
+        <span>Skills</span>
+      </HeaderTag>
+    </div>
+  );
 };
 
 export default Skills;

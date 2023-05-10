@@ -3,17 +3,14 @@ import Landing from "../Landing";
 import { rampartOne } from "@/fonts/fonts";
 import TagWrapper from "../common/TagWrapper";
 import Button from "../common/Button";
+import HeaderTag from "../common/HeaderTag";
 
 const Contact = () => {
   return (
     <div className="w-full md:w-3/4 flex flex-col gap-3">
-      <TagWrapper tagName="h1">
-        <div
-          className={`flex flex-col font-bold text-6xl md:text-7xl lg:text-8xl ${rampartOne.className}`}
-        >
-          <span>Contact me</span>
-        </div>
-      </TagWrapper>
+      <HeaderTag>
+        <span>Contact me</span>
+      </HeaderTag>
       <TagWrapper tagName="p">
         <span>
           I am open For a full-time Full Stack Developer or React Developer job.
