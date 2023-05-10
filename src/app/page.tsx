@@ -8,7 +8,7 @@ import ComponentHeight from "@/components/common/ComponentHeight";
 export default function Home() {
   return (
     <div className="w-full h-full ">
-      <ComponentHeight className="h-full">
+      <ComponentHeight className="h-full  ">
         <Landing />
       </ComponentHeight>
 

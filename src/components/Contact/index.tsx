@@ -16,10 +16,10 @@ const Contact = () => {
       </TagWrapper>
       <TagWrapper tagName="p">
         <span>
-          I am open htmlFor a full-time Full Stack Developer or React Developer
-          job. Currently,I am working as a full-time Full Stack Developer in
+          I am open For a full-time Full Stack Developer or React Developer job.
+          Currently,I am working as a full-time Full Stack Developer in
           SoftSuave. With expertise in React and Node, I am working in MERN
-          stack & TypeScript.. However, if you have other request or question,
+          stack & TypeScript. However, if you have other request or question,
           don’t hesitate to use the form.
         </span>
       </TagWrapper>
