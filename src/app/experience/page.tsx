@@ -1,16 +1,15 @@
-import { use } from "react";
-import { testAPI } from "../page";
+import Experience from "@/components/Experience";
+import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
-import Landing from "@/components/Landing";
 
-export default function Experience() {
-  const test = use(testAPI());
-
+export default function ExperiencePage() {
   return (
     <div className="w-full h-full ">
-      <TagWrapper tagName="body">
-        <div>Experience</div>
-      </TagWrapper>
+      <ComponentHeight>
+        <TagWrapper tagName="body">
+          <Experience />
+        </TagWrapper>
+      </ComponentHeight>
     </div>
   );
 }

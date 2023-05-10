@@ -11,9 +11,7 @@ const MainLayout = ({ children }: Props) => {
         <div className=" hidden md:flex  md:w-1/5 w-full md:h-full border ">
           <SideBar />
         </div>
-        <div className="md:w-4/5 w-full h-full overflow-auto p-2">
-          {children}
-        </div>
+        <div className="md:w-4/5 w-full h-full overflow-auto ">{children}</div>
       </div>
     </NeonCursor>
   );

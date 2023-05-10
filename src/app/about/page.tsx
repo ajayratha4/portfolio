@@ -1,15 +1,14 @@
-import { use } from "react";
-import { testAPI } from "../page";
+import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
 
 export default function About() {
-  const test = use(testAPI());
-
   return (
     <div className="w-full h-full ">
-      <TagWrapper tagName="body">
-        <div>About</div>
-      </TagWrapper>
+      <ComponentHeight>
+        <TagWrapper tagName="body">
+          <div>About</div>
+        </TagWrapper>
+      </ComponentHeight>
     </div>
   );
 }

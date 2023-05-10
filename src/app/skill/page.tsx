@@ -1,16 +1,15 @@
-import { use } from "react";
-import { testAPI } from "../page";
+import Skills from "@/components/Skills";
+import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
-import Landing from "@/components/Landing";
 
 export default function Skill() {
-  const test = use(testAPI());
-
   return (
     <div className="w-full h-full ">
-      <TagWrapper tagName="body">
-        <div>Skill</div>
-      </TagWrapper>
+      <ComponentHeight>
+        <TagWrapper tagName="body">
+          <Skills />
+        </TagWrapper>
+      </ComponentHeight>
     </div>
   );
 }
