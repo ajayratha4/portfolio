@@ -6,7 +6,7 @@ import Button from "../common/Button";
 
 const Contact = () => {
   return (
-    <div className="w-3/4 flex flex-col gap-4">
+    <div className="w-full md:w-3/4 flex flex-col gap-3">
       <TagWrapper tagName="h1">
         <div
           className={`flex flex-col font-bold text-6xl md:text-7xl lg:text-8xl ${rampartOne.className}`}
@@ -79,7 +79,7 @@ const Contact = () => {
             Subject
           </label>
           <textarea
-            rows={4}
+            rows={3}
             cols={50}
             id="message"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -87,7 +87,7 @@ const Contact = () => {
           />
         </div>
         <div className="flex justify-center">
-          <Button>Send Message !</Button>
+          <Button>Send Message!</Button>
         </div>
       </TagWrapper>
     </div>

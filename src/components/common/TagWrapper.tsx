@@ -13,7 +13,7 @@ const TagWrapper = ({ children, tagName, style, flexCol = true }: Props) => {
       <span
         className={`dark:text-gray-100 ${caveat.className}`}
       >{`<${tagName}>`}</span>
-      <div className={`"ml-4" ${style}`}>{children}</div>
+      <div className={`${flexCol ? "ml-7" : "mx-2"}  ${style}`}>{children}</div>
       <span
         className={`dark:text-gray-100 ${caveat.className}`}
       >{`</${tagName}>`}</span>
