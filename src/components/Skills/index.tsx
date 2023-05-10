@@ -27,26 +27,28 @@ const Skills = () => {
           <TagWrapper flexCol={false} tagName="h5" style={"mx-3"}>
             <span className="text-lg">Programing Language</span>
           </TagWrapper>
-          <div className="flex gap-2">
-            <IconContainer
-              iconSize={100}
-              size={150}
-              icon={JavascriptIcon}
-              lable="JavaScript"
-            />
-            <IconContainer
-              iconSize={100}
-              size={150}
-              icon={TypescriptIcon}
-              lable="TypeScript"
-            />
-            <IconContainer
-              iconSize={100}
-              size={150}
-              icon={JavaIcon}
-              lable="Java"
-            />
-          </div>
+          <TagWrapper tagName="CardItem" style={"mx-3"}>
+            <div className="flex gap-2">
+              <IconContainer
+                iconSize={100}
+                size={150}
+                icon={JavascriptIcon}
+                lable="JavaScript"
+              />
+              <IconContainer
+                iconSize={100}
+                size={150}
+                icon={TypescriptIcon}
+                lable="TypeScript"
+              />
+              <IconContainer
+                iconSize={100}
+                size={150}
+                icon={JavaIcon}
+                lable="Java"
+              />
+            </div>
+          </TagWrapper>
         </div>
       </div>
       <div className=" flex flex-col gap-4 w-full">
@@ -54,19 +56,21 @@ const Skills = () => {
           <TagWrapper flexCol={false} tagName="h5" style={"mx-3"}>
             <span className="text-lg">Front End</span>
           </TagWrapper>
-
-          <div className="w-full h-full  p-1 flex flex-wrap gap-2">
-            <FrontEnd />
-          </div>
+          <TagWrapper tagName="CardItem" style={"mx-3"}>
+            <div className="w-full h-full  p-1 flex flex-wrap gap-2">
+              <FrontEnd />
+            </div>
+          </TagWrapper>
         </div>
         <div className="w-full h-full">
           <TagWrapper flexCol={false} tagName="h5" style={"mx-3"}>
             <span className="text-lg">Back End</span>
           </TagWrapper>
-
-          <div className="w-full h-full  p-1 flex flex-wrap gap-2">
-            <BackEnd />
-          </div>
+          <TagWrapper tagName="CardItem" style={"mx-3"}>
+            <div className="w-full h-full  p-1 flex flex-wrap gap-2">
+              <BackEnd />
+            </div>
+          </TagWrapper>
         </div>
       </div>
     </div>
