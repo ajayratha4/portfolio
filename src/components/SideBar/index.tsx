@@ -12,7 +12,7 @@ export const paths = [
 
 const SideBar = () => {
   return (
-    <div className=" h-full w-full flex flex-col justify-center items-center">
+    <div className=" h-full w-full flex flex-col justify-center items-center gap-2">
       <nav className="hs-accordion-group p-6 w-full flex flex-col flex-wrap ">
         <TagWrapper
           tagName="MenuList"
@@ -29,6 +29,15 @@ const SideBar = () => {
           </ul>
         </TagWrapper>
       </nav>
+      <div>
+        <TagWrapper tagName="a" flexCol={false}>
+          Mob: <a href="tel:9938012733">9938012733</a>
+        </TagWrapper>
+        <TagWrapper tagName="a" flexCol={false}>
+          Email:
+          <a href="mailto: ajayratha97@gmail.com">ajayratha97@gmail.com</a>
+        </TagWrapper>
+      </div>
       <div
         style={{
           width: "100%",
