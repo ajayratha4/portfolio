@@ -36,16 +36,22 @@ const SideBar = () => {
           justifyContent: "space-evenly",
         }}
       >
-        <Button href="https://github.com/ajayratha4" style={{ padding: "4px" }}>
+        <Button
+          target="_blank"
+          href="https://github.com/ajayratha4"
+          style={{ padding: "4px" }}
+        >
           <GithubIcon height={30} width={30} />
         </Button>
         <Button
+          target="_blank"
           href="https://drive.google.com/file/d/1hIufDQ_MzL0enOnr64Z3G5K4ZG8LqReP/view?usp=sharing"
           style={{ padding: "4px" }}
         >
           <ResumeIcon height={30} width={30} />
         </Button>
         <Button
+          target="_blank"
           href="https://www.linkedin.com/in/ajayratha4/"
           style={{ padding: "4px" }}
         >
