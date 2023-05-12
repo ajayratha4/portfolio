@@ -7,12 +7,10 @@ import { sendEmail } from "./sendEmail";
 //   return NextResponse.json({ data });
 // }
 
-export async function POST() {
-  const data = { id: 1 };
-  sendEmail({
-    to: "ajay@example.com",
-    subject: "Welcome to NextAPI",
-    html: "hello",
+export async function POST(req: Request) {
+  const data = await sendEmail({
+    subject: `Portfolio Ajay Ratha ${"a"}`,
+    text: " HTML_TEMPLATE()",
   });
-  return NextResponse.json({ data });
+  return NextResponse.json({ data: "hello" });
 }
