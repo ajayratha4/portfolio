@@ -5,6 +5,11 @@ import Landing from "@/components/Landing";
 import Skills from "@/components/Skills";
 import ComponentHeight from "@/components/common/ComponentHeight";
 
+export const metadata = {
+  title: "Ajay Ratha Portfolio",
+  description: "Ajay Ratha Portfolio",
+};
+
 export default function Home() {
   return (
     <div className="w-full h-full ">
@@ -19,7 +24,7 @@ export default function Home() {
         <Skills />
       </ComponentHeight>
       <ComponentHeight showBackgroundColor={false}>
-        <Experience />
+        {/* <Experience /> */}
       </ComponentHeight>
       <ComponentHeight>
         <Contact />

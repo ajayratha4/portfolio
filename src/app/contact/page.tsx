@@ -2,6 +2,11 @@ import Contact from "@/components/Contact";
 import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
 
+export const metadata = {
+  title: "Ajay Ratha Contact",
+  description: "Ajay Ratha Contact",
+};
+
 export default function ContactPage() {
   return (
     <div className="w-full h-full ">
