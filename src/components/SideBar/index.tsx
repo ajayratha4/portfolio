@@ -54,7 +54,7 @@ const SideBar = () => {
         </Button>
         <Button
           target="_blank"
-          href="https://drive.google.com/file/d/1hIufDQ_MzL0enOnr64Z3G5K4ZG8LqReP/view?usp=sharing"
+          href={process.env.RESUMEURL}
           style={{ padding: "4px" }}
         >
           <ResumeIcon height={30} width={30} />
