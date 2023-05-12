@@ -7,6 +7,9 @@ import Javascript from "./Javascript";
 import Mysql from "./Mysql";
 import AWS from "./AWS";
 import Java from "./Java";
+import Resume from "./Resume";
+import Github from "./Github";
+import Linkedin from "./Linkedin";
 
 export {
   React as ReactIcon,
@@ -18,4 +21,7 @@ export {
   Mysql as MysqlIcon,
   AWS as AWSIcon,
   Java as JavaIcon,
+  Resume as ResumeIcon,
+  Github as GithubIcon,
+  Linkedin as LinkedinIcon,
 };
