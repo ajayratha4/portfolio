@@ -42,9 +42,18 @@ const Landing = () => {
               </TagWrapper>
             </div>
             <div className="flex">
-              <TagWrapper tagName="button" style={"my-3"}>
-                <Button href="/contact" className="w-full">
+              <TagWrapper
+                tagName="ButtonGroup"
+                style={"my-3 flex gap-2 w-full  md:flex-row flex-col "}
+              >
+                <Button href="/contact" style={{ width: "150px" }}>
                   Contact me!
+                </Button>
+                <Button href="/skill" style={{ width: "150px" }}>
+                  Skills
+                </Button>
+                <Button href="/work" style={{ width: "150px" }}>
+                  Experiance
                 </Button>
               </TagWrapper>
             </div>

@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className="w-full h-full ">
       <ComponentHeight style={{ height: "100%" }}>
         <TagWrapper tagName="body">
-          <About />
+          <About showButton />
         </TagWrapper>
       </ComponentHeight>
     </div>

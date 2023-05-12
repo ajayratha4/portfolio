@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Button from "../common/Button";
 import TagWrapper from "../common/TagWrapper";
 
@@ -6,7 +5,7 @@ export const paths = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Skill", path: "/skill" },
-  { label: "Experience", path: "/experience" },
+  { label: "Work", path: "/work" },
   { label: "Contact", path: "/contact" },
 ];
 

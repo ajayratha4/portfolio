@@ -15,10 +15,10 @@ const NeonCursor = ({ children }) => {
         radius1: 1,
         radius2: 10,
         velocityTreshold: 1,
-        sleepRadiusX: 0,
-        sleepRadiusY: 0,
-        sleepTimeCoefX: 0,
-        sleepTimeCoefY: 0,
+        sleepRadiusX: 50,
+        sleepRadiusY: 50,
+        sleepTimeCoefX: 0.0025,
+        sleepTimeCoefY: 0.0025,
       });
     }
   }, []);

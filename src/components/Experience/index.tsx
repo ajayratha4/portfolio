@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div className="w-full flex flex-col gap-3">
       <HeaderTag>
-        <span>Experience</span>
+        <span>Portfolio</span>
       </HeaderTag>
     </div>
   );
