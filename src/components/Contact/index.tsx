@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import TagWrapper from "../common/TagWrapper";
 import Button from "../common/Button";
 import HeaderTag from "../common/HeaderTag";
+import LoadingLogo from "../Loading";
 
 const initialFormData = { name: "", email: "", subject: "", message: "" };
 
@@ -40,6 +41,10 @@ const Contact = () => {
   ) => {
     setFormData((prev) => ({ ...prev, [e.target.id]: e.target.value }));
   };
+
+  if (isLoading) {
+    <LoadingLogo />;
+  }
 
   return (
     <div className="w-full md:w-3/4 flex flex-col gap-3">
