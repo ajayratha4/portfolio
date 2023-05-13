@@ -15,7 +15,7 @@ const Contact = () => {
     const { name, email, subject, message } = formData;
     if (name && email && subject) {
       setLoading(true);
-      fetch(`http://localhost:3001/api/email`, {
+      fetch(`${window.location.origin}/api/email`, {
         method: "POST",
         body: JSON.stringify({
           subject,
