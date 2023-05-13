@@ -2,7 +2,6 @@ import nodemailer from "nodemailer";
 
 type EmailPayload = {
   subject?: string;
-  html?: string;
   text?: string;
 };
 
@@ -25,12 +24,5 @@ export const sendEmail = async (data: EmailPayload) => {
     text: data.text,
   };
 
-  transporter
-    .sendMail(options)
-    .then((res) => {
-      return res;
-    })
-    .catch((err) => {
-      return err.messsage;
-    });
+  return await transporter.sendMail(options);
 };

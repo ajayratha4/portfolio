@@ -37,7 +37,7 @@ const MobileSidebar = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
                 stroke-linecap="round"
@@ -49,7 +49,7 @@ const MobileSidebar = () => {
                     id="Vector"
                     d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18"
                     stroke="#ffffff"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   ></path>
@@ -64,7 +64,7 @@ const MobileSidebar = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
                 stroke-linecap="round"

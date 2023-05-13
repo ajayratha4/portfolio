@@ -8,7 +8,7 @@ const Linkedin = ({ height = 50, width = 50 }) => {
       xmlns="http://www.w3.org/2000/svg"
       fill="#ffffff"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
         stroke-linecap="round"
@@ -21,7 +21,7 @@ const Linkedin = ({ height = 50, width = 50 }) => {
         <g
           id="Page-1"
           stroke="none"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
           fill-rule="evenodd"
         >

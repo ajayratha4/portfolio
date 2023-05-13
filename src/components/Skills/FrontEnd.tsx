@@ -35,7 +35,7 @@ const Git = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -62,7 +62,7 @@ const Vite = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -117,7 +117,7 @@ const Eslint = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -147,7 +147,7 @@ const WebPack = () => (
     preserveAspectRatio="xMidYMid"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -180,7 +180,7 @@ const CSS = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -205,7 +205,7 @@ const Redux = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -258,7 +258,7 @@ const HTML = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -324,7 +324,7 @@ const StoryBook = () => (
     preserveAspectRatio="xMidYMid"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -363,7 +363,7 @@ const RTL = () => (
     preserveAspectRatio="xMidYMid"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -392,7 +392,7 @@ const Next = () => (
     viewBox="0 0 32 32"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"
@@ -414,7 +414,7 @@ const Prettier = () => (
     preserveAspectRatio="xMidYMid"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
       stroke-linecap="round"

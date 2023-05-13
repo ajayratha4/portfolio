@@ -7,7 +7,7 @@ const Typescript = ({ height = 50, width = 50 }) => {
       xmlns="http://www.w3.org/2000/svg"
       fill="#000000"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
         stroke-linecap="round"
