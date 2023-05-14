@@ -8,7 +8,7 @@ const ThankYouCard = () => {
           Thanks For Connecting
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          I'm eagerly awaiting the opportunity to respond to you
+          {`I'm eagerly awaiting the opportunity to respond to you`}
         </p>
       </div>
     </div>
