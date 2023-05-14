@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderTag from "../common/HeaderTag";
+import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
   return (
@@ -7,6 +8,9 @@ const Experience = () => {
       <HeaderTag>
         <span>Portfolio</span>
       </HeaderTag>
+      <div>
+        <ExperienceCard /> <ExperienceCard /> <ExperienceCard />
+      </div>
     </div>
   );
 };

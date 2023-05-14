@@ -24,7 +24,7 @@ export default function Home() {
         <Skills />
       </ComponentHeight>
       <ComponentHeight showBackgroundColor={false}>
-        {/* <Experience /> */}
+        <Experience />
       </ComponentHeight>
       <ComponentHeight>
         <Contact />
