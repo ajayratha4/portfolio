@@ -3,8 +3,8 @@ import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
 
 export const metadata = {
-  title: "Ajay Ratha Contact",
-  description: "Ajay Ratha Contact",
+  title: "Contact | Ajay Ratha Portfolio",
+  description: "Ajay Ratha Portfolio",
 };
 
 export default function ContactPage() {

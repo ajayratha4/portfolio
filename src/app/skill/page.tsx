@@ -2,6 +2,11 @@ import Skills from "@/components/Skills";
 import ComponentHeight from "@/components/common/ComponentHeight";
 import TagWrapper from "@/components/common/TagWrapper";
 
+export const metadata = {
+  title: "Skills | Ajay Ratha Portfolio",
+  description: "Ajay Ratha Portfolio",
+};
+
 export default function Skill() {
   return (
     <div className="w-full h-full ">
