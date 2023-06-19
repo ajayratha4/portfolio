@@ -52,9 +52,10 @@ const SideBar = () => {
         >
           <GithubIcon height={30} width={30} />
         </Button>
+
         <Button
           target="_blank"
-          href={process.env.RESUMEURL}
+          href={"/assets/Reasume-Ajay-Ratha-Full-stack-developer.pdf"}
           style={{ padding: "4px" }}
         >
           <ResumeIcon height={30} width={30} />

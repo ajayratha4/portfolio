@@ -24,7 +24,11 @@ const NeonCursor = ({ children }) => {
   }, []);
 
   return (
-    <div ref={el} className=" w-full h-full " style={{ position: "relative" }}>
+    <div
+      ref={el}
+      className=" w-full h-full "
+      style={{ position: "relative", overflow: "hidden" }}
+    >
       <div
         style={{
           position: "absolute",

@@ -55,6 +55,13 @@ const Landing = () => {
                 <Button href="/work" style={{ width: "150px" }}>
                   Experiance
                 </Button>
+                <Button
+                  target="_blank"
+                  href={"/assets/Reasume-Ajay-Ratha-Full-stack-developer.pdf"}
+                  style={{ width: "150px" }}
+                >
+                  View Resume
+                </Button>
               </TagWrapper>
             </div>
           </div>

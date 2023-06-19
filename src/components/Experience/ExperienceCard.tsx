@@ -1,19 +1,23 @@
+"use client";
 import React from "react";
 
-type Props = { title: string; details: string };
+type Props = {
+  title: string;
+  details: string;
+  icon: React.JSX.Element;
+  responsibilities: React.JSX.Element;
+};
 
-const ExperienceCard = ({ title, details }: Props) => {
+const ExperienceCard = ({ title, details, icon, responsibilities }: Props) => {
   return (
-    <div>
-      <div className="flex flex-col items-center border  rounded-lg shadow md:flex-row md:max-w-xl">
-        {/* <img
-          className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="/docs/images/blog/image-4.jpg"
-          alt=""
-        /> */}
-        <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="text-lg md:text-2xl">{title}</h5>
-          <p>{details}</p>
+    <div className="flex items-center border flex-col md:flex-row rounded-lg shadow ">
+      <div className="w-1/3 p-2 h-full ">{icon}</div>
+      <div className="flex flex-col justify-between p-4 leading-normal w-2/3 ">
+        <span className="text-lg md:text-2xl">{title}</span>
+        <span className="text-2xl md:text-xl">{details}</span>
+        <div>
+          <span className="text-2xl md:text-xl">Responsibilities</span>:
+          {responsibilities}
         </div>
       </div>
     </div>

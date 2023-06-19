@@ -10,6 +10,9 @@ import Java from "./Java";
 import Resume from "./Resume";
 import Github from "./Github";
 import Linkedin from "./Linkedin";
+import MusicIcon from "./MusicIcon";
+import VideoIcon from "./Video";
+import EcommerceIcon from "./Ecommerce";
 
 export {
   React as ReactIcon,
@@ -24,4 +27,7 @@ export {
   Resume as ResumeIcon,
   Github as GithubIcon,
   Linkedin as LinkedinIcon,
+  MusicIcon,
+  VideoIcon,
+  EcommerceIcon,
 };
