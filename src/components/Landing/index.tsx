@@ -3,11 +3,14 @@ import Button from "../common/Button";
 import {
   AWSIcon,
   ExpressIcon,
+  GithubIcon,
   JavascriptIcon,
+  LinkedinIcon,
   MongodbIcon,
   MysqlIcon,
   Nodeicon,
   ReactIcon,
+  ResumeIcon,
   TypescriptIcon,
 } from "../icons";
 import HeaderTag from "../common/HeaderTag";
@@ -29,15 +32,43 @@ const Landing = () => {
                 <span className="text-lg">Core Competencies</span>
               </TagWrapper>
               <TagWrapper tagName="icons" style={"m-3 "}>
-                <div className="flex gap-2 flex-wrap">
-                  <JavascriptIcon />
-                  <ReactIcon />
-                  <Nodeicon />
-                  <ExpressIcon />
-                  <TypescriptIcon />
-                  <MongodbIcon />
-                  <MysqlIcon />
-                  <AWSIcon />
+                <div className="flex justify-between flex-wrap  gap-2 ">
+                  <div className="flex gap-2 flex-wrap">
+                    <JavascriptIcon />
+                    <ReactIcon />
+                    <Nodeicon />
+                    <ExpressIcon />
+                    <TypescriptIcon />
+                    <MongodbIcon />
+                    <MysqlIcon />
+                    <AWSIcon />
+                  </div>
+                  <div className="flex gap-2 flex-wrap">
+                    <Button
+                      target="_blank"
+                      href="https://github.com/ajayratha4"
+                      style={{ padding: "4px" }}
+                    >
+                      <GithubIcon height={40} width={40} />
+                    </Button>
+
+                    <Button
+                      target="_blank"
+                      href={
+                        "/assets/Reasume-Ajay-Ratha-Full-stack-developer.pdf"
+                      }
+                      style={{ padding: "4px" }}
+                    >
+                      <ResumeIcon height={40} width={40} />
+                    </Button>
+                    <Button
+                      target="_blank"
+                      href="https://www.linkedin.com/in/ajayratha4/"
+                      style={{ padding: "4px" }}
+                    >
+                      <LinkedinIcon height={40} width={40} />
+                    </Button>
+                  </div>
                 </div>
               </TagWrapper>
             </div>
