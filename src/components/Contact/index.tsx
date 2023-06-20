@@ -54,6 +54,9 @@ const Contact = () => {
       <HeaderTag>
         <span>Contact me</span>
       </HeaderTag>
+      <TagWrapper tagName="email">
+        <a href="mailto: ajayratha97@gmail.com">ajayratha97@gmail.com</a>
+      </TagWrapper>
       <TagWrapper tagName="p">
         <span>
           I am open For a full-time Full Stack Developer or React Developer job.
