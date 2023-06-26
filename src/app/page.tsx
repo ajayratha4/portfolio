@@ -7,7 +7,8 @@ import ComponentHeight from "@/components/common/ComponentHeight";
 
 export const metadata = {
   title: "Ajay Ratha Portfolio",
-  description: "Ajay Ratha Portfolio",
+  description:
+    "Skilled Node.js and React.js Developer with 2.3 Years of Experience in Building High-Performing Web Applications",
 };
 
 export default function Home() {

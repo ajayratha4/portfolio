@@ -4,7 +4,8 @@ import TagWrapper from "@/components/common/TagWrapper";
 
 export const metadata = {
   title: "About | Ajay Ratha Portfolio",
-  description: "Ajay Ratha Portfolio",
+  description:
+    "Skilled Node.js and React.js Developer with 2.3 Years of Experience in Building High-Performing Web Applications",
 };
 
 export default function AboutPage() {
