@@ -11,7 +11,7 @@ const About = ({ showButton = false }) => {
       </HeaderTag>
       <div>
         <TagWrapper tagName="p">
-          I am a Full Stack Developer with almost 2+ years of experience, my
+          I am a Full Stack Developer with almost 3+ years of experience, my
           problem-solving skills, speaking skills, sense of empathy, technical
           skills, and professional experience make me a great team player and a
           valuable employee. I am proficient with - 📄𝗕𝗮𝗰𝗸𝗲𝗻𝗱- Node.js with
